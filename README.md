@@ -73,17 +73,20 @@ buildConfigField("String", "CAT_API_KEY", "\"YOUR_API_KEY_HERE\"")
 
 ## Project Structure
 
-app/src/main/java/com/example/catsapp/
-├── MainActivity.kt
-├── navigation/
-│ └── AppNavHost.kt
-├── network/
-│ ├── CatImage.kt
-│ ├── CatRepository.kt
-│ ├── CatsApiService.kt
-│ ├── CatsViewModel.kt
-│ └── NetworkConnectivityObserver.kt
-└── screens/
-├── CatDetailScreen.kt
-└── CatListScreen.kt
+## Project Structure
+
+- **app/src/main/java/com/example/catsapp/**
+  - `MainActivity.kt`
+  - **navigation/**
+    - `AppNavHost.kt`
+  - **network/**
+    - `CatImage.kt`
+    - `CatRepository.kt`
+    - `CatsApiService.kt`
+    - `CatsViewModel.kt`
+    - `NetworkConnectivityObserver.kt`
+  - **screens/**
+    - `CatDetailScreen.kt`
+    - `CatListScreen.kt`
+
 
