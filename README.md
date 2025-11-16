@@ -36,7 +36,7 @@ CatsApp is a Jetpack Compose Android application that displays a list of cat ima
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/CatsApp.git
+git clone https://github.com/denisapopescu1905/CatsApp
 cd CatsApp
 ```
 
