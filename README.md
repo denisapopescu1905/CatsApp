@@ -1,4 +1,4 @@
-# CatsApp
+# CatsApp 🐈
 
 CatsApp is a Jetpack Compose Android application that displays a list of cat images along with breed information using [The Cat API](https://thecatapi.com/). Users can view detailed information about each cat, including temperament, life span, and ratings for intelligence, affection level, child-friendliness, and social needs.
 
@@ -22,28 +22,33 @@ CatsApp is a Jetpack Compose Android application that displays a list of cat ima
 ---
 
 ## Screenshots
-![Media (6) (1)](https://github.com/user-attachments/assets/2c72bcc1-493b-41e7-992c-07d1db2da6ac)
-![Media (11) (1)](https://github.com/user-attachments/assets/0eaaceec-4e42-463a-b7d8-32e6f259f08c)
-![Media (7) (1)](https://github.com/user-attachments/assets/47923c7d-eb07-4b35-bc15-e790da429765)
-![Media (8) (1)](https://github.com/user-attachments/assets/3ed844bd-8bd4-4145-a912-e190440aaa07)
-![Media (9) (1)](https://github.com/user-attachments/assets/52681225-c723-4882-9209-e4a68d25402a)
-![Media (10) (1)](https://github.com/user-attachments/assets/c35c865a-5831-4485-a783-5e2cc80d86ef)
+<img src="https://github.com/user-attachments/assets/2c72bcc1-493b-41e7-992c-07d1db2da6ac" width="300"/>
+<img src="https://github.com/user-attachments/assets/0eaaceec-4e42-463a-b7d8-32e6f259f08c" width="300"/>
+<img src="https://github.com/user-attachments/assets/47923c7d-eb07-4b35-bc15-e790da429765" width="300"/>
+<img src="https://github.com/user-attachments/assets/3ed844bd-8bd4-4145-a912-e190440aaa07" width="300"/>
+<img src="https://github.com/user-attachments/assets/52681225-c723-4882-9209-e4a68d25402a" width="300"/>
+<img src="https://github.com/user-attachments/assets/c35c865a-5831-4485-a783-5e2cc80d86ef" width="300"/>
 
 ---
 
 ## Installation
 
 1. Clone the repository:
+
+```bash
 git clone https://github.com/yourusername/CatsApp.git
 cd CatsApp
+```
 
-2. Open the project in Android Studio.
+3. Open the project in Android Studio.
    
-3. Add your Cat API key in build.gradle.kts:
+4. Add your Cat API key in build.gradle.kts:
+```bash
 buildConfigField("String", "CAT_API_KEY", "\"YOUR_API_KEY_HERE\"")
+```
 
-4. Sync Gradle and build the project.
-5. Run the app on an Android device or emulator.
+6. Sync Gradle and build the project.
+7. Run the app on an Android device or emulator.
 
 ---
 
